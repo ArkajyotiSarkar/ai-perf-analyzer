@@ -1,0 +1,11 @@
+timeStamp,elapsed,label,responseCode,success,bytes,latency,threadName
+1752300000000,245,GET /api/users,200,true,1024,240,Thread-1
+1752300000500,312,GET /api/users,200,true,1024,305,Thread-2
+1752300001000,198,GET /api/orders,200,true,2048,190,Thread-1
+1752300001500,4521,GET /api/orders,200,true,2048,4500,Thread-3
+1752300002000,289,GET /api/users,200,true,1024,280,Thread-2
+1752300002500,301,POST /api/checkout,500,false,512,295,Thread-4
+1752300003000,220,GET /api/orders,200,true,2048,215,Thread-1
+1752300003500,5102,GET /api/orders,200,true,2048,5080,Thread-3
+1752300004000,265,GET /api/users,200,true,1024,260,Thread-2
+1752300004500,310,POST /api/checkout,200,true,512,300,Thread-4
